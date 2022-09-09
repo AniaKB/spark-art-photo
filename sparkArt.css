@@ -1,0 +1,30 @@
+@media screen and (max-width: 788) {
+    p {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+}
+
+@font-face {
+    font-family: avenir-light;
+    src: url('avenir-light.woff');
+}
+
+body {
+    /*background-color:#f0eeeb;*/
+    background-image: url("textured-background.png");
+    background-repeat: repeat;
+}
+
+p {
+    font-family: avenir-light,sans-serif;
+    border-radius: 4px;
+    font-size: 22px;
+    padding: 15px;
+    display: block;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 739.9px;
+}
