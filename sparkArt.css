@@ -1,30 +1,98 @@
 @media screen and (max-width: 788) {
-    p {
-        margin-left: auto;
-        margin-right: auto;
-        width: 70%;
-    }
+  p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
 }
 
 @font-face {
-    font-family: avenir-light;
-    src: url('avenir-light.woff');
+  font-family: avenir-light;
+  src: url('avenir-light.woff');
 }
+
+@font-face {
+  font-family: raleway;
+  src: url('');
+  }
+
+@font-face {
+  font-family: linotype-didot;
+  src: url('');
+}
+
+@font-face {
+    font-family: neuropol;
+    src: url('');
+  }
 
 body {
-    /*background-color:#f0eeeb;*/
-    background-image: url("textured-background.png");
-    background-repeat: repeat;
+  /*background-color:#f0eeeb;*/
+  background-image: url("textured-background.png");
+  background-repeat: repeat;
 }
 
-p {
-    font-family: avenir-light,sans-serif;
-    border-radius: 4px;
-    font-size: 22px;
-    padding: 15px;
-    display: block;
-    margin-top: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 739.9px;
+.slider {
+  font-family: linotype-didot, sans-serif;
+  font-style: italic;
+}
+
+.subtext {
+  font-family: raleway, sans-serif;
+}
+
+.covid {
+  font-family: avenir-light,sans-serif;
+  border-radius: 4px;
+  font-size: 22px;
+  padding: 15px;
+  display: block;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 739.9px;
+}
+
+h4{
+  font-style: bold;
+  padding: 10px;
+}
+
+.testimonial > p {
+  font-size: 13px;
+  font-style: italic;
+  padding: 10px;
+}
+
+.testimonial {
+  background-color: #F2C9A2;
+  font-family: neuropol, sans-serif;
+  font-weight: 100;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 739.9px;
+}
+
+.headshot-photography {
+  background-color:#914600;
+}
+
+.portfolios {
+  background-color: #E6AA73;
+}
+
+.about-us {
+  background-color: #482300;
+}
+
+footer {
+  text-align: center;
+  font-family: avenir-light, sans-serif;
+  color: #999999;
+  padding:25px;
+
 }
