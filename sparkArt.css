@@ -77,6 +77,22 @@ h4{
   width: 739.9px;
 }
 
+h3 {
+  font-family: neuropol;
+}
+
+.categories {
+  margin: 25px;
+  padding: 10px;
+  color: white;
+  display: flex;
+  text-align: center;
+}
+
+.in-touch {
+  background-color: #F2C9A2;
+}
+
 .headshot-photography {
   background-color:#914600;
 }
